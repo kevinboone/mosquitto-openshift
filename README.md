@@ -7,6 +7,11 @@ on OpenShift. The procedure should work with OpenShift 4.x and OpenShift 3.11.
 In this document I describe building and testing the container images
 using `podman`, but `docker` and `buildah` should work without changes.
 
+This document only describes the installation steps; for a more 
+detailed discussion see
+
+http://kevinboone.me/mosquitto-openshift.html
+
 ## Mosquitto
 
 Mosquitto is a very lightweight, very simple message broker that supports
